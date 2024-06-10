@@ -17,6 +17,8 @@ manifest:
       url: https://github.com/rmarco30/app_eric
       revision: master
       import: false
+      
+  group-filter: [-group_glen,-group_appx]
 
   # Settings applied using the self key will only be applied to the manifest repository
   self:
