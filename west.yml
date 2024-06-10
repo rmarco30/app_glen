@@ -7,7 +7,6 @@ manifest:
       url: https://github.com/rmarco30/app_eric
       revision: master
       import:
-        path-prefix: deps
         name-blocklist:
           - app_glen
           - app_x
