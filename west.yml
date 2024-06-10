@@ -6,9 +6,11 @@ manifest:
     - name: app_eric
       url: https://github.com/rmarco30/app_eric
       revision: master
-      import: true
-      
-  group-filter: [-group_glen,-group_appx]
+      import:
+        path-prefix: deps
+        name-blocklist:
+          - app_glen
+          - app_x
 
   # Settings applied using the self key will only be applied to the manifest repository
   self:
