@@ -3,20 +3,10 @@ manifest:
   version: 0.8
 
   projects:
-    - name: zephyr
-      url: https://github.com/zephyrproject-rtos/zephyr
-      revision: v3.4.0
-      west-commands: scripts/west-commands.yml
-      import:
-        path-prefix: deps
-        name-allowlist:
-          - cmsis
-          - hal_nordic
-          - nrfxlib
     - name: app_eric
       url: https://github.com/rmarco30/app_eric
       revision: master
-      import: false
+      import: true
 
   # Settings applied using the self key will only be applied to the manifest repository
   self:
